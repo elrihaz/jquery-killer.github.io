@@ -98,13 +98,6 @@ p {
     clear: both;
 }
 
-#test {
-  height:100px;
-  width:100px;
-  display: inline-block;
-  background-color:#FF0000;
-}
-
 /*************************BAS DE PAGE**************************/
 .basPage {
     height: 220px;
@@ -118,4 +111,26 @@ p {
     float: none;
     margin: 0 auto;
   }
+}
+
+.cube {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
 }
