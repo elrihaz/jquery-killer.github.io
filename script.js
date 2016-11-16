@@ -1,15 +1,15 @@
-$(document).ready(function() {
-  $('.cube').mouseenter(function() {
+$(document).ready(function () {
+  $('.cube').mouseenter(function () {
     $(this).animate({
       height: '+=10px'
     });
   });
-  $('.cube').mouseleave(function() {
+  $('.cube').mouseleave(function () {
     $(this).animate({
       height: '-=10px'
     });
   });
-  $('.cube').click(function() {
+  $('.cube').click(function () {
     $(this).toggle(1000);
   });
 });
