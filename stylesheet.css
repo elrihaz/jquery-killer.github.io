@@ -1,0 +1,121 @@
+html, body, h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: Magnel;
+    font-weight: 300;
+}
+
+p {
+    font-family: Magnel;
+}
+
+.conteneur {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+/******************************BANNIERE*********************************************/
+.banniere {
+    height: 400px;
+    background: url("https://image.jimcdn.com/app/cms/image/transf/dimension=1070x10000:format=jpg/path/sc96c6335ee1b0cc8/image/i4507aea7d94925d4/version/1468576517/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banniere h1 {
+    color: darkseagreen;
+    font-size: 4em;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+/******************************NAVIGATION*******************************************/
+.nav-pills li {
+    padding-top: 35px;
+    padding-left: 10px;
+    float:none;
+    display:inline-block;
+}
+
+.nav-pills li a, .nav-pills li.active a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Impact;
+    font-size: 1.5em;
+    color: dimgrey;
+    padding: 0;
+    background-color: white;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.nav-pills li.active a:hover {
+    color: darkslategray;
+    background-color: white;
+    transition: 0.6s;
+}
+
+.nav-pills li:first-child  {
+    padding-left: 0;
+  }
+
+.navigation {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-align:center;
+}
+
+/****************************SECTION************************************************/
+.titrePage {
+    color: darkslategray;
+    font-size: 1.5em;
+}
+
+.ssTitrePage {
+    color: darkseagreen;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+
+}
+
+.row {
+    margin-bottom: 60px;
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+
+.fixfloat {
+    clear: both;
+}
+
+#test {
+  height:100px;
+  width:100px;
+  display: inline-block;
+  background-color:#FF0000;
+}
+
+/*************************BAS DE PAGE**************************/
+.basPage {
+    height: 220px;
+    background-color: #32333B;
+}
+
+/**************************************************************/
+/* Media Queries */
+@media (max-width: 680px) {
+   .nav {
+    float: none;
+    margin: 0 auto;
+  }
+}
