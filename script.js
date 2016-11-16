@@ -1,5 +1,12 @@
 $(document).ready(function() {
-    $('#test').mouseenter(function() {
-        $('#test').fadeTo('fast', 0.25);
-    });
+   $('#test').mouseenter(function() {
+       $(this).animate({
+           height: '+=10px'
+       });
+   });
+   $('#test').mouseleave(function() {
+       $(this).animate({
+           height: '-=10px'
+       });
+   });
 });
