@@ -45,31 +45,30 @@ p {
 
 /******************************NAVIGATION*******************************************/
 
-nav {
+ul {
   margin-bottom: 100px;
-}
-
-nav p {
-  padding-top: 35px;
-  padding-left: 15px;
-}
-
-nav p a {
-  text-decoration: none;
+  list-style-type: none;
   text-transform: uppercase;
   font-family: Impact;
   font-size: 1.5em;
   color: dimgrey;
-  padding: 0;
   background-color: white;
 }
 
-nav p.active a,
-nav p a:hover,
-nav p.active a:hover {
-  text-decoration: none;
+ul p {
+  padding-top: 35px;
+}
+
+ul li {
+  padding-top: 35px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+ul li.active,
+ul li:hover,
+ul li.active:hover {
   color: darkslategray;
-  background-color: white;
   transition: 0.6s;
 }
 
