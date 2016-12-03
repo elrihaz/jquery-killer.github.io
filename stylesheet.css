@@ -36,17 +36,11 @@ p {
   height: 400px;
 }
 
-.jumbotron h1 {
-  color: darkseagreen;
-  font-size: 4em;
-  text-transform: uppercase;
-}
-
 
 /******************************NAVIGATION*******************************************/
 
 ul {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   list-style-type: none;
   text-transform: uppercase;
   font-family: Impact;
@@ -56,12 +50,12 @@ ul {
 }
 
 ul p {
-  padding-top: 35px;
+  padding-top: 10px;
 }
 
 ul li {
-  padding-top: 35px;
-  padding-left: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
   cursor: pointer;
 }
 
@@ -75,21 +69,34 @@ ul li.active:hover {
 
 /****************************SECTION************************************************/
 
-.titrePage {
-  color: darkslategray;
-  font-size: 1.5em;
+figure {
+  margin-bottom: 60px;
 }
 
-.ssTitrePage {
+figure img,
+figure iframe {
+  width: 100%;
+  padding: 10px;
+}
+
+.texte h1,
+figure h1{
+  color: darkslategray;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+.texte h2,
+figure h2 {
   color: darkseagreen;
   font-size: 1.2em;
   padding-bottom: 10px;
 }
 
-.contenu {
-  margin-bottom: 60px;
+figure p {
+  font-size: 0.8em;
+  padding: 0 10px;
 }
-
 
 /*************************BAS DE PAGE**************************/
 
