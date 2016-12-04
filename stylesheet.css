@@ -11,12 +11,12 @@ p {
 h1,
 h2,
 h3 {
-  font-family: Magnel;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
 p {
-  font-family: Magnel;
+  font-family: 'Roboto Slab', serif;
 }
 
 .centrer {
@@ -43,7 +43,7 @@ ul {
   margin-bottom: 60px;
   list-style-type: none;
   text-transform: uppercase;
-  font-family: Impact;
+  font-family: 'Anton', sans-serif;
   font-size: 1.5em;
   color: dimgrey;
   background-color: white;
